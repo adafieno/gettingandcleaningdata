@@ -106,7 +106,7 @@ averaged.data <- dcast(melted.data, subject.id + activity.name ~ variable, mean)
 final.data <- arrange(averaged.data, subject.id, activity.id)
 
 # Write tidy dataset to the working folder
-write.table(final.data, file = "tidy.csv",sep=",",row.names=F)
+write.table(final.data, file = "tidy.txt",sep=",",row.names=F)
 
 # Restore original working directory
 setwd("..")

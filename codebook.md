@@ -42,6 +42,8 @@ The following describe the steps followed to creatre the script run_analysis.R t
 
 ### Cleaned Data Structure
 
+The cleaned output file is called tidy.txt. It's a comma separate file.
+
 ## subject.id
 Identifier for each subject who carried out the experiment. Range (integer) 1:30
  

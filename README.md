@@ -36,7 +36,7 @@ Steps to create the dataset
 3. Set the working folder of the session to your local version of the repository (cloned in 1)
 5. Source run_analisys.R script source('run_analysis.R') 
 
-The resulting clean (tidy) data file is called tidy.csv.
+The resulting clean (tidy) data file is called tidy.txt.
 
 
 
