@@ -29,9 +29,10 @@ The following R libraries were used for the study:
 
 ### Design
 The following describe the steps followed to creatre the script run_analysis.R to process and clean the data:
+
 1. Download and unpack the data source
-2. Acquire and build the training dataset from its different components: activities, subjects and variables
-3. Acquire and build the testing dataset from its different components: activities, subjects and variables 
+2. Acquire and build the training dataset from its different components: activities, subjects and variables.
+3. Acquire and build the testing dataset from its different components: activities, subjects and variables. 
 4. Join training and test data into a single data frame. 
 5. Name all features measured/calculated using the feature names provided. 
 6. Extract only features containing mean or standard deviation. 
@@ -39,6 +40,7 @@ The following describe the steps followed to creatre the script run_analysis.R t
 8. Use descriptive names for each activity, in addition to the activity id.
 9. Merge, aggregate and re-arrange the data by subject and activity, and apply the mean to all variables. 
 10. Order the data by subject and activity id.
+
 
 ### Cleaned Data Structure
 
